@@ -156,5 +156,4 @@ ORDER BY FIELD(shift, 'Morning', 'Afternoon', 'Evening');
 - **Customer Insights**: Reports on top customers and unique customer counts per category.
 
 ## Conclusion
-
-This project serves as a comprehensive introduction to SQL for data analysts, covering database setup, data cleaning, exploratory data analysis, and business-driven SQL queries. The findings from this project can help drive business decisions by understanding sales patterns, customer behavior, and product performance.
+This project uses SQL queries for analyzing real-world sales data. From importing data and cleaning it, to writing queries that answered key business questions. The findings from this project can help drive business decisions by understanding sales patterns, customer behavior, and product performance.
