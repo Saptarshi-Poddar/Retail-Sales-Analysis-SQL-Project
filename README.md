@@ -173,8 +173,8 @@ ORDER BY FIELD(shift, 'Morning', 'Afternoon', 'Evening');
 - **Trend Analysis**:
 - Average monthly sales per year<br>
 `year   month     avg_sale` <br>
-2022	1	397.1053<br>
-2022	2	366.1364<br>
+`2022	1	397.1053`<br>
+`2022	2	366.1364`<br>
 2022	3	521.2222<br>
 2022	4	500.6140<br>
 2022	5	480.0000<br>
