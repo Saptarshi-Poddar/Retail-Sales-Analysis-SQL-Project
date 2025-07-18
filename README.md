@@ -167,9 +167,9 @@ ORDER BY FIELD(shift, 'Morning', 'Afternoon', 'Evening');
 ## Reports
 
 - **Sales Summary Report**:
-- Total number of sales transactions - 1987
-- Net sales per category - Electronics(₹3,11,445), Clothing(₹3,09,995),and Beauty(₹2,86,790)
-- Number of orders and their distribution by gender - Female customers(1012) And Males customers(975). <br>
+- Total number of sales transactions : 1987
+- Net sales per category : Electronics(₹3,11,445), Clothing(₹3,09,995),and Beauty(₹2,86,790)
+- Number of orders and their distribution by gender - Female customers(1012) And Males customers(975): <br>
 `Category       Gender  No.of Orders` <br>
 `Beauty	        Female	330`<br>
 `Beauty	        Male	281`<br>
@@ -178,7 +178,7 @@ ORDER BY FIELD(shift, 'Morning', 'Afternoon', 'Evening');
 `Electronics	Female	335`<br>
 `Electronics	Male	343`<br>
 - **Trend Analysis**:
-- Average monthly sales per year<br>
+- Average monthly sales per year:<br>
 `year   month     avg_sale` <br>
 `2022	1	397.1053`<br>
 `2022	2	366.1364`<br>
@@ -204,7 +204,7 @@ ORDER BY FIELD(shift, 'Morning', 'Afternoon', 'Evening');
 `2023	10	399.1724`<br>
 `2023	11	453.4524`<br>
 `2023	12	490.3901`<br>
-- Identification of best-selling month in each year.<br>
+- Identification of best-selling month in each year:<br>
 `year  month    Total_sale_in_month`<br>
 `2022	1	22635`<br>
 `2022	2	16110`<br>
@@ -230,20 +230,31 @@ ORDER BY FIELD(shift, 'Morning', 'Afternoon', 'Evening');
 `2023	10	57880`<br>
 `2023	11	57135`<br>
 `2023	12	69145`<br>
-- Distribution of sales across different time shifts.<br>
+- Distribution of sales across different time shifts:<br>
 `Shifts       No.of Orders`<br>
 `Morning  	548`<br>
 `Afternoon	377`<br>
 `Evening 	1062`<br>
-- **Customer Analytics Report:**
--Total number of unique customers : 155
+- **Customer Analytics Report:**<br>
+-Total number of unique customers : 155<br>
 -Top-spending customers:<br>
 `Customer_id Total_sales`<br>
-`3	38440`<br>
-`1	30750`<br>
-`5	30405`<br>
-`2	25295`<br>
-`4	23580`<br>
+`3	      38440`<br>
+`1	      30750`<br>
+`5	      30405`<br>
+`2	      25295`<br>
+`4	      23580`<br>
+-Unique customer count by product category:<br>
+`Category    Unique_Customrs`<br>
+`Beauty  	141`<br>
+`Clothing	149`<br>
+`Electronics	144`<br>
+-Average age of customers by category:<br>
+`Category       Avg_Age`<br>
+`Beauty	        40.42`<br>
+`Clothing	41.93`<br>
+`Electronics	41.60`<br>
+
 
 ## Conclusion
 This project demonstrates the power of SQL in driving business insights from raw retail data. By importing and cleaning real-world Excel datasets into MySQL, we performed structured queries to analyze customer demographics, product performance, and seasonal sales trends.
