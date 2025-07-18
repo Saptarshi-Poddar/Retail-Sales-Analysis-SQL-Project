@@ -164,7 +164,7 @@ ORDER BY FIELD(shift, 'Morning', 'Afternoon', 'Evening');
 - Category-level analysis showed how many unique customers shopped in each category.
 - Transactions were distributed across different time shifts:
 - Morning (before 12 PM) , Afternoon (12 PM – 5 PM) , Evening (after 5 PM).
-## Reports
+## Report
 
 **Sales Summary Report**:
 
