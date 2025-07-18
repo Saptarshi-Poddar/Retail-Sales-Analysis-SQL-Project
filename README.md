@@ -167,6 +167,7 @@ ORDER BY FIELD(shift, 'Morning', 'Afternoon', 'Evening');
 ## Reports
 
 - **Sales Summary Report**:
+
 - Total number of sales transactions : 1987
 - Net sales per category : Electronics(₹3,11,445), Clothing(₹3,09,995),and Beauty(₹2,86,790)
 - Number of orders and their distribution by gender - Female customers(1012) And Males customers(975): <br>
@@ -236,20 +237,20 @@ ORDER BY FIELD(shift, 'Morning', 'Afternoon', 'Evening');
 `Afternoon	377`<br>
 `Evening 	1062`<br>
 - **Customer Analytics Report:**<br>
--Total number of unique customers : 155<br>
--Top-spending customers:<br>
+- Total number of unique customers : 155<br>
+- Top-spending customers:<br>
 `Customer_id Total_sales`<br>
 `3	      38440`<br>
 `1	      30750`<br>
 `5	      30405`<br>
 `2	      25295`<br>
 `4	      23580`<br>
--Unique customer count by product category:<br>
+- Unique customer count by product category:<br>
 `Category    Unique_Customrs`<br>
 `Beauty  	141`<br>
 `Clothing	149`<br>
 `Electronics	144`<br>
--Average age of customers by category:<br>
+- Average age of customers by category:<br>
 `Category       Avg_Age`<br>
 `Beauty	        40.42`<br>
 `Clothing	41.93`<br>
