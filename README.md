@@ -166,7 +166,7 @@ ORDER BY FIELD(shift, 'Morning', 'Afternoon', 'Evening');
 - Morning (before 12 PM) , Afternoon (12 PM – 5 PM) , Evening (after 5 PM).
 ## Reports
 
-- **Sales Summary Report**:
+**Sales Summary Report**:
 
 - Total number of sales transactions : 1987
 - Net sales per category : Electronics(₹3,11,445), Clothing(₹3,09,995),and Beauty(₹2,86,790)
@@ -180,7 +180,7 @@ ORDER BY FIELD(shift, 'Morning', 'Afternoon', 'Evening');
 `Electronics	Male	343`<br>
 - **Trend Analysis**:
 - Average monthly sales per year:<br>
-`year   month     avg_sale` <br>
+`year   month   avg_sale` <br>
 `2022	1	397.1053`<br>
 `2022	2	366.1364`<br>
 `2022	3	521.2222`<br>
