@@ -170,6 +170,12 @@ ORDER BY FIELD(shift, 'Morning', 'Afternoon', 'Evening');
 - Total number of sales transactions - 1987
 - Net sales per category - Electronics(₹3,11,445), Clothing(₹3,09,995),and Beauty(₹2,86,790)
 - Number of orders and their distribution by gender - Female customers(1012) And Males customers(975).
+`Beauty	        Female	330`<br>
+`Beauty	        Male	281`<br>
+`Clothing	Female	347`<br>
+`Clothing	Male	351`<br>
+`Electronics	Female	335`<br>
+`Electronics	Male	343`<br>
 - **Trend Analysis**:
 - Average monthly sales per year<br>
 `year   month     avg_sale` <br>
