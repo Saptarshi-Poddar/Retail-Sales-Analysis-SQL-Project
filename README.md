@@ -145,10 +145,25 @@ ORDER BY FIELD(shift, 'Morning', 'Afternoon', 'Evening');
 
 ## Findings
 
-- **Customer Demographics**: The dataset includes customers from various age groups, with sales distributed across different categories such as Clothing and Beauty.
-- **High-Value Transactions**: Several transactions had a total sale amount greater than 1000, indicating premium purchases.
-- **Sales Trends**: Monthly analysis shows variations in sales, helping identify peak seasons.
-- **Customer Insights**: The analysis identifies the top-spending customers and the most popular product categories.
+1. **Customer Demographics**:
+- The dataset covers a diverse customer base segmented by age and gender.
+- Female customers (1012) formed a slightly larger portion of the transactions compared to males customers (975).
+- Average customer age for the "Beauty" category purchases is approximately 40 years.
+2. **Category-Wise Performance**:
+- The top-selling categories include Electronics(₹3,11,445 Net_Sale), then Clothing(₹3,09,995 Net_Sale),and lastly the Beauty(₹2,86,790 Net_Sale).
+- The Clothing category recorded the highest number of total_orders(698).
+- Each category shows varying average sales and customer base, useful for category-level marketing strategies.
+3. **Sales Trends**:
+- Peak sales months were identified using monthly average sales.
+- December emerged as a strong sales month across multiple years like (Total sale of ₹71,880 in 2022 and Total sale of ₹69,145 in 2023), possibly due to seasonal demand or festive offers.
+4. **High-Value Transactions**:
+- A significant number of transactions exceeded a total sale value of ₹1000.
+- These high-value transactions were most frequently associated with Electronics and Home Essentials.
+- **Customer Insights**:
+- The top 5 customers based on lifetime purchase value were identified—critical for loyalty programs.
+- Category-level analysis showed how many unique customers shopped in each category.
+- Transactions were distributed across different time shifts:
+- Morning (before 12 PM) , Afternoon (12 PM – 5 PM) , Evening (after 5 PM).
 ## Reports
 
 - **Sales Summary**: A detailed report summarizing total sales, customer demographics, and category performance.
