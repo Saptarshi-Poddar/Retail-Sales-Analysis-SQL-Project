@@ -166,8 +166,37 @@ ORDER BY FIELD(shift, 'Morning', 'Afternoon', 'Evening');
 - Morning (before 12 PM) , Afternoon (12 PM – 5 PM) , Evening (after 5 PM).
 ## Reports
 
-- **Sales Summary**: A detailed report summarizing total sales, customer demographics, and category performance.
-- **Trend Analysis**: Insights into sales trends across different months and shifts.
+- **Sales Summary Report**:
+- Total number of sales transactions - 1987
+- Net sales per category - Electronics(₹3,11,445), Clothing(₹3,09,995),and Beauty(₹2,86,790)
+- Number of orders and their distribution by gender - Female customers(1012) And Males customers(975).
+- **Trend Analysis**:
+- Average monthly sales per year
+2022	1	397.1053
+2022	2	366.1364
+2022	3	521.2222
+2022	4	500.6140
+2022	5	480.0000
+2022	6	481.3953
+2022	7	541.3415
+2022	8	390.2778
+2022	9	485.1969
+2022	10	467.1379
+2022	11	472.0205
+2022	12	460.7692
+2023	1	396.5000
+2023	2	535.5319
+2023	3	394.8077
+2023	4	466.4894
+2023	5	450.1667
+2023	6	438.4821
+2023	7	427.6786
+2023	8	495.9649
+2023	9	462.7397
+2023	10	399.1724
+2023	11	453.4524
+2023	12	490.3901
+  
 - **Customer Insights**: Reports on top customers and unique customer counts per category.
 
 ## Conclusion
