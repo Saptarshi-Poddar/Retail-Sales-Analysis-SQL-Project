@@ -171,7 +171,8 @@ ORDER BY FIELD(shift, 'Morning', 'Afternoon', 'Evening');
 - Net sales per category - Electronics(₹3,11,445), Clothing(₹3,09,995),and Beauty(₹2,86,790)
 - Number of orders and their distribution by gender - Female customers(1012) And Males customers(975).
 - **Trend Analysis**:
-- Average monthly sales per year
+- Average monthly sales per year<br>
+`year   month     avg_sale  <br>
 2022	1	397.1053<br>
 2022	2	366.1364<br>
 2022	3	521.2222<br>
@@ -195,7 +196,7 @@ ORDER BY FIELD(shift, 'Morning', 'Afternoon', 'Evening');
 2023	9	462.7397<br>
 2023	10	399.1724<br>
 2023	11	453.4524<br>
-2023	12	490.3901<br>
+2023	12	490.3901<br>`
   
 - **Customer Insights**: Reports on top customers and unique customer counts per category.
 
