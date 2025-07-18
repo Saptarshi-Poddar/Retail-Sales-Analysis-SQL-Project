@@ -143,7 +143,7 @@ GROUP BY shift
 ORDER BY FIELD(shift, 'Morning', 'Afternoon', 'Evening');
 ```
 
-## Findings
+## Key Findings
 
 1. **Customer Demographics**:
 - The dataset covers a diverse customer base segmented by age and gender.
@@ -171,4 +171,5 @@ ORDER BY FIELD(shift, 'Morning', 'Afternoon', 'Evening');
 - **Customer Insights**: Reports on top customers and unique customer counts per category.
 
 ## Conclusion
-This project uses SQL queries for analyzing real-world sales data. From importing data and cleaning it, to writing queries that answered key business questions. The findings from this project can help drive business decisions by understanding sales patterns, customer behavior, and product performance.
+This project demonstrates the power of SQL in driving business insights from raw retail data. By importing and cleaning real-world Excel datasets into MySQL, we performed structured queries to analyze customer demographics, product performance, and seasonal sales trends.
+These findings not only help in understanding current business performance but also support data-driven decision-making in areas like customer retention, inventory planning, and targeted marketing.
