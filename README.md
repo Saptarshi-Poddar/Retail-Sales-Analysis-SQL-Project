@@ -169,7 +169,7 @@ ORDER BY FIELD(shift, 'Morning', 'Afternoon', 'Evening');
 - **Sales Summary Report**:
 - Total number of sales transactions - 1987
 - Net sales per category - Electronics(₹3,11,445), Clothing(₹3,09,995),and Beauty(₹2,86,790)
-- Number of orders and their distribution by gender - Female customers(1012) And Males customers(975).
+- Number of orders and their distribution by gender - Female customers(1012) And Males customers(975). <br>
 `Beauty	        Female	330`<br>
 `Beauty	        Male	281`<br>
 `Clothing	Female	347`<br>
@@ -203,7 +203,32 @@ ORDER BY FIELD(shift, 'Morning', 'Afternoon', 'Evening');
 `2023	10	399.1724`<br>
 `2023	11	453.4524`<br>
 `2023	12	490.3901`<br>
-  
+-Identification of best-selling month in each year.<br>
+`year  month    Total_sale_in_month`<br>
+`2022	1	22635`<br>
+`2022	2	16110`<br>
+`2022	3	23455`<br>
+`2022	4	28535`<br>
+`2022	5	24480`<br>
+`2022	6	20700`<br>
+`2022	7	22195`<br>
+`2022	8	21075`<br>
+`2022	9	61620`<br>
+`2022	10	67735`<br>
+`2022	11	68915`<br>
+`2022	12	71880`<br>
+`2023	1	23790`<br>
+`2023	2	25170`<br>
+`2023	3	20530`<br>
+`2023	4	21925`<br>
+`2023	5	27010`<br>
+`2023	6	24555`<br>
+`2023	7	35925`<br>
+`2023	8	28270`<br>
+`2023	9	67560`<br>
+`2023	10	57880`<br>
+`2023	11	57135`<br>
+`2023	12	69145`<br>
 - **Customer Insights**: Reports on top customers and unique customer counts per category.
 
 ## Conclusion
